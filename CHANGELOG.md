@@ -6,6 +6,7 @@
 
 ### Fixed
 - When symfony_env is set to dev, require-dev are not installed and missing packages are breaking installation process. [#2035]
+- composer install now respects {{bin/php}} config
 
 
 ## v6.8.0
